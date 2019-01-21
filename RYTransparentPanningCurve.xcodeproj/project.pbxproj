@@ -15,6 +15,8 @@
 		D8974CE421F58CEA008E92B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8974CE221F58CEA008E92B9 /* LaunchScreen.storyboard */; };
 		D8974CEF21F58CEA008E92B9 /* RYTransparentPanningCurveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8974CEE21F58CEA008E92B9 /* RYTransparentPanningCurveTests.swift */; };
 		D8974CFA21F58CEA008E92B9 /* RYTransparentPanningCurveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8974CF921F58CEA008E92B9 /* RYTransparentPanningCurveUITests.swift */; };
+		D8974D0821F58F5A008E92B9 /* TransparentCurvedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8974D0721F58F59008E92B9 /* TransparentCurvedView.swift */; };
+		D8974D0A21F58FD7008E92B9 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8974D0921F58FD6008E92B9 /* Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D8974CF521F58CEA008E92B9 /* RYTransparentPanningCurveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RYTransparentPanningCurveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8974CF921F58CEA008E92B9 /* RYTransparentPanningCurveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RYTransparentPanningCurveUITests.swift; sourceTree = "<group>"; };
 		D8974CFB21F58CEA008E92B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8974D0721F58F59008E92B9 /* TransparentCurvedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransparentCurvedView.swift; sourceTree = "<group>"; };
+		D8974D0921F58FD6008E92B9 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 		D8974CD521F58CE8008E92B9 /* RYTransparentPanningCurve */ = {
 			isa = PBXGroup;
 			children = (
+				D8974D0921F58FD6008E92B9 /* Utility.swift */,
 				D8974CD621F58CE8008E92B9 /* AppDelegate.swift */,
+				D8974D0721F58F59008E92B9 /* TransparentCurvedView.swift */,
 				D8974CD821F58CE8008E92B9 /* ViewController.swift */,
 				D8974CDA21F58CE8008E92B9 /* Main.storyboard */,
 				D8974CE021F58CEA008E92B9 /* Assets.xcassets */,
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8974D0A21F58FD7008E92B9 /* Utility.swift in Sources */,
+				D8974D0821F58F5A008E92B9 /* TransparentCurvedView.swift in Sources */,
 				D8974CDF21F58CE8008E92B9 /* RYTransparentPanningCurve.xcdatamodeld in Sources */,
 				D8974CD921F58CE8008E92B9 /* ViewController.swift in Sources */,
 				D8974CD721F58CE8008E92B9 /* AppDelegate.swift in Sources */,
