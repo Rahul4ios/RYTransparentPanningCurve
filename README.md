@@ -14,4 +14,4 @@ ii. Curve is transparent i.e top subview's content is seen in the curve's portio
 iii. When bottom subview is swiped up or down, the curve too changes its shape along with its size.
 iv. On touch up, either complete the animation or return to its initial position. This movement is not abrupt but animated.
 
-![Video link](https://bitbucket.org/RYTheDev/rytransparentpanningcurve/downloads/RYTransparentPanningCurve.MP4)
+<img src="https://github.com/Rahul4ios/RYTransparentPanningCurve/blob/master/RYTransparentPanningCurve.gif" width="300" height="533.5">
